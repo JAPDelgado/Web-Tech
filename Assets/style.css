@@ -1,88 +1,147 @@
-header{
-    background-color: #f7f7f7;
-    padding: 20px 40px;
-    padding-left: auto;
-    padding-right: 200px;
-    margin-bottom: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
+.a-link {
+  padding: 10px 10px;
 }
 
-.a-link{
-    padding: 10px 10px;
+body {
+  border-top: 5px solid rgb(20, 153, 174);
+  font-family: Arial;
 }
 
-body{
-    border-top: 5px solid rgb(20, 153, 174);
-    font-family: Arial;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
+aside {
+  border-top: 5px solid rgb(20, 153, 174);
+  border-bottom: 5px solid rgb(20, 153, 174);
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 200px;
+  height: 4 00px;
+  float: right;
+  font-size: small;
 }
 
-aside{
-        border-top: 5px solid rgb(20, 153, 174);;
-        border-bottom: 5px solid rgb(20, 153, 174);;
-        background-color: #f7f7f7;
-        padding: 20px 40px;
-        padding-left: 40px;
-        padding-right: 40px;   
-        width: 400px; 
-        height: 500px;
+h1 {
+  color: rgb(20, 153, 174);
+  display: inline-block;
+  min-width: 77px;
 }
 
-h1{
-    color:rgb(20, 153, 174);
+.navHeader {
+  margin-right: auto;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f7f7f7;
+
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.content {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-left {
+  flex: 70%;
+  padding: 10px;
+}
+
+.column-right {
+  flex: 30%;
+}
+
+.center {
+  width: 50%;
+  padding: 10px;
+}
+
+.content-right {
+  justify-content: flex-end;
+}
+
+.sidecontent-title {
+  flex-grow: 2;
+}
+
+.divCenter {
+  display: flex;
+  align-items: center;
+}
+
+.p-2 {
+  padding: 15px;
+}
+
+.img {
+  height: 75px;
+  width: 75px;
 }
 
 h2 {
-    color:rgb(20, 153, 174);
+  color: rgb(20, 153, 174);
 }
 
-h2::after{
-    content: "TOP";
-    background-color: #ffe70e;
-    color: black;
-    font-size: 10px;
-    font-weight: bold;
-    display: inline-block;
-    padding: 5px 10px;
-    position: absolute;
-    top: 205px;
-    right: 720px;
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 100px;
+  right: 700px;
 }
 
 article {
-    font-style: italic;
-    font-size: small;
+  font-style: italic;
+  font-size: small;
 }
 
-.strong-title{
-    align-content: center;
+.strong-title {
+  align-content: center;
 }
 
-a:visited{
-    color:rgb(20, 153, 174);
-    font-size: small;
-} 
-
-a:hover{
-    color:rgb(20, 153, 174);
-    font-size: small;
-    background-color: rgb(51,51,51);
+a:visited {
+  color: rgb(20, 153, 174);
+  font-size: small;
 }
 
-a:active{
-    color:rgb(20, 153, 174);
-    font-size: small;
+a:hover {
+  color: rgb(20, 153, 174);
+  font-size: small;
+  background-color: rgb(51, 51, 51);
 }
 
-p:first-child{
-    color:rgb(20, 153, 174);
+a:active {
+  color: rgb(20, 153, 174);
+  font-size: small;
 }
 
-p:nth-child(2){
+p:first-child {
+  color: rgb(20, 153, 174);
+}
+
+/* p:nth-child(2){
     font-weight: bold;
 }
 
@@ -91,36 +150,39 @@ p:nth-child(4){
 }
 
 p:nth-child(6){
-    font-weight: bold;
     font-style: italic;
+} 
+*/
+
+.sidecontent {
+  background-color: #f7f7f7;
+  border-top: 5px solid rgb(20, 153, 174);
+  border-bottom: 5px solid rgb(20, 153, 174);
+  border-width: 5px;
+  border-color: rgb(20, 153, 174);
+  align-items: center;
+  margin-top: 25px;
+  align-items: center;
 }
 
-li:first-child{
-    font-weight: bold;
+h3{
+    color: rgb(20, 153, 174);
 }
 
-li:last-child{
-    font-style: italic;
+.subcontent {
+  font-style: italic;
+  font-size: smaller;
 }
 
-.li-diff{
-    font-style: italic;
+li:first-child {
+  font-weight: bold;
 }
 
-.li-linkdiff{
-    color:rgb(20, 153, 174);
+li:last-child {
+  font-style: italic;
 }
 
-button{
-    margin-left: 1000px;
-    margin-bottom: 2000;
 
-}
-
-button{
-    right: 1000px;
-}
-
-button:hover{
-    color: pink;
+button:hover {
+  color: pink;
 }

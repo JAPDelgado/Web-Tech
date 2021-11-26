@@ -1,84 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header> 
-        <link href="Assets/style.css" rel="stylesheet" />
-    
-            <h1> 📘 <i> The Code Magazine </i> </h1>
-            <a class="a-link" href="" style="text-decoration:none";>Blog</a> 
-            <a class="a-link" href="" style="text-decoration:none";>Challenges</a>
-            <a class="a-link" href="" style="text-decoration:none";>Flexbox</a> 
-            <a class="a-link" href="" style="text-decoration:none";>CSS Grid</a> 
-        <br>
-    </header>
+<header>
+    <link href="Assets/style.css" rel="stylesheet" />
 
-    <body>
-        <h2>The Basic Language of the Web: HTML </h2>
+    <div class="contentHeader">
+        <h2 class="navHeader"> 📘 <i> The Code Magazine </i> </h2>
 
-         <img src="laura-jones.jpg" height="40" width="40">
-        
-        <article>
-         Posted by: <strong> Laura Jones </strong> on Monday, June 21st 2027
-        </article>
-
-        <br>
-
-        <img src="post-image.jpg" height="223" width="555;">
-        
-        <p>
-            All modern website and web applications are built using three <i>fundamental</i> technologies: HTML, CSS and JavaScript. These ae the languages of the web. <br> <br>     
-            In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it. <br>
-        </p>
-
-        <h2> What is HTML </h2>
-    
-        <p>
-            HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage.  It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language). <br> <br>
-            HTML consists of elements that describe different types of conent: paragraphs, link, headings, images, vide, etc. Web browsers understand HTM and render HTML code as websites. <br> <br>
-            In HTML, each element is made up of 3 parts:
-        </p>
-
-        <ol>
-            <li>The opening tag</li>
-            <li>The closing tag</li>
-            <li>The actual element</li>
-        </ol>
-
-        <p> You can learn more at <a class="li-linkdiff" href="HTML: HyperText Markup Language | MDN (mozilla.org)" style="text-decoration:none";> MDN Web Docs</a> </p>
-
-        <h2>Why should you learn HTML?</h2>
-
-        <p>There are countless reason for learning the fundamental language of the web. Here are 5 of them: </p>
-
-        <ul>
-            <li>To be able to use the fundamental web dev language</li>
-            <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
-            <li>To build web applications
-            <li>To Impress friends</li>
-            <li>To have fun &#128512; <meta charset="UTF-8"> </li>
+        <ul class="nav">
+            <li><a href="" style="text-decoration:none" ;>Blog</a></li>
+            <li><a href="" style="text-decoration:none" ;>Challenges</a></li>
+            <li><a href="" style="text-decoration:none" ;>Flexbox</a></li>
+            <li><a href="" style="text-decoration:none" ;>CSS Grid</a></li>
         </ul>
- 
-        <p>
-            Hopefully you learned something new here. See you next time! 
-            <br>
-            <br>
-        
-        <aside>
-            <strong class="strong-title">Related Posts</strong>
-        </p>
+    </div>
 
-        <ul>
-            <li> <img src="related-1.jpg" height="100" width="100"> <a href="" style="text-decoration:none";>How to Learn Web Development</a></li>
-            <p>By Jonas Schmedtmann</p>
-            <li> <img src="related-2.jpg" height="100" width="100"> <a href="" style="text-decoration:none";>The Unkown Powers of CSS</a></li>
-            <p>By Jim Dillon</p>
-            <li class="li-diff"> <img src="related-3.jpg" height="100" width="100" > <a href="" style="text-decoration:none";>Why JavaScript is Awesome</a></li>
-            <p>By Matilda</p>
-        </ul>
-        </aside>
-    </body>
+    </div>
 
-    <footer>
-        Copyright © 2027 by The Code Magazine 
-    </footer>
-    <button> ❤️ Like</button>
+</header>
+
+<body>
+    <!-- Main Body -->
+    <div class="content">
+        <!-- Main Content -->
+        <div class="row">
+            <!-- Left Column -->
+            <div class="column-left">
+                <h1>The Basic Language of the Web: HTML </h1>
+                <br>
+                <div class="row">
+                    <img src="laura-jones.jpg" height="40" width="40">
+                    <article class="center">
+                        Posted by: <strong> Laura Jones </strong> on Monday, June 21st 2027
+                    </article>
+                </div>
+                <br>
+
+                <img src="post-img.jpg" height="300" width="755">
+
+                <p>
+                    All modern website and web applications are built using three <i>fundamental</i> technologies: HTML,
+                    CSS and JavaScript. These ae the languages of the web. <br> <br>
+                    In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should
+                    learn it. <br>
+                </p>
+
+                <h2> What is HTML </h2>
+
+                <p>
+                    HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
+                    <strong>L</strong>anguage. It's a markup language that web developers use to structure and describe
+                    the content of a webpage (not a programming language). <br> <br>
+                    HTML consists of elements that describe different types of conent: paragraphs, link, headings,
+                    images, vide, etc. Web browsers understand HTM and render HTML code as websites. <br> <br>
+                    In HTML, each element is made up of 3 parts:
+                </p>
+
+                <ol>
+                    <li>The opening tag</li>
+                    <li>The closing tag</li>
+                    <li>The actual element</li>
+                </ol>
+
+                <p> You can learn more at <ahref="HTML: HyperText Markup Language | MDN (mozilla.org)
+                        style="text-decoration:none" ;> MDN Web Docs</a> </p>
+
+                <h2>Why should you learn HTML?</h2>
+
+                <p>There are countless reason for learning the fundamental language of the web. Here are 5 of them: </p>
+
+                <ul>
+                    <li>To be able to use the fundamental web dev language</li>
+                    <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
+                    <li>To build web applications
+                    <li>To Impress friends</li>
+                    <li>To have fun &#128512;
+                        <meta charset="UTF-8">
+                    </li>
+                </ul>
+                <p>
+                    Hopefully you learned something new here. See you next time!
+                    <br>
+                    <br>
+            </div>
+            <!-- /Left Column -->
+            <!-- Right Column -->
+            <div class="column-right">
+                <div class="sidecontent">
+                    <div class="sidecontent-title">
+                        <h3 class="htitle"><strong>Related Posts </strong></h3> <br>
+                    </div>
+                    <div class="row p-2">
+                        <div class="divCenter">
+                            <img class="img" src="related-1.jpg">
+                        </div>
+                        <div class="p-2">
+                            <div>
+                                <h3>How to Learn Web Development</h3>
+                            </div>
+                            <div>
+                                <p class="subcontent">By Jonas Schmedtmann</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row p-2">
+                        <div class="divCenter">
+                            <img class="img" src="related-2.jpg">
+                        </div>
+                        <div class="p-2">
+                            <div>
+                                <h3>The Unkown Power of CSS</h3>
+                            </div>
+                            <div>
+                                <p class="subcontent">By Jim Dillon</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row p-2">
+                        <div class="divCenter">
+                            <img class="img" src="related-3.jpg">
+                        </div>
+                        <div class="row p-2">
+                            <div>
+                                <h3>Why JavaScript is Awesome</h3>
+                            </div>
+                            <div>
+                                <p class="subcontent">By Matilda</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Right Column -->
+        </div>
+        <!-- /Main Content -->
+
+    </div>
+    <!-- /Main Body -->
+
+    <div class="row content-right">
+        <button> ❤️ Like </button>
+    </div>
+</body>
+<footer class="content">
+    Copyright © 2027 by The Code Magazine
+</footer>
+
 </html>
